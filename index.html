@@ -126,7 +126,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon" style="text-align: center;"><i class="bi bi-sliders icon"></i></div>
               <h4 style="text-align: center;"><a href="" class="stretched-link">Mais controle e menos imprevistos</a>
@@ -137,7 +137,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon" style="text-align: center;"><i class="bi bi-tree icon"></i></div>
               <h4 style="text-align: center;"><a href="" class="stretched-link">Redução de riscos e custos
@@ -148,7 +148,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon" style="text-align: center;"><i class="bi bi-check2-square icon"></i></div>
               <h4 style="text-align: center;"><a href="" class="stretched-link">Aprovações e regularizações mais
@@ -159,7 +159,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon" style="text-align: center;"><i class="bi bi-headset icon"></i></div>
               <h4 style="text-align: center;"><a href="" class="stretched-link">Suporte técnico especializado sempre ao
@@ -189,11 +189,11 @@
 
         <div class="row gy-3">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="fade-up">
             <img src="assets/img/about.jpg" alt="" class="img-fluid">
           </div>
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up">
             <div class="about-content ps-0 ps-lg-3">
               <h3>AQUAMBIENTE- COMERCIO E SERVIÇOS</h3>
               <p class="fst-italic"> LDA é uma empresa prestadora de serviços
@@ -246,7 +246,7 @@
     <!-- Stats Section -->
     <section id="stats" class="stats section">
 
-      <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <!-- <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
 
@@ -361,7 +361,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-exclamation-triangle icon"></i>
@@ -375,7 +375,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-file-earmark-text icon"></i>
@@ -388,12 +388,13 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-file-earmark-text icon"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="javascript:void(0)" class="stretched-link" data-bs-toggle="modal"
+                data-bs-target="#modalMonitoramento">
                 <h3>Monitoramento Ambiental</h3>
               </a>
               <p>Realizamos o Monitoramento Ambiental para acompanhar e avaliar a qualidade do ar, da água, do solo e do
@@ -403,21 +404,79 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <!-- Modal Monitoramento -->
+          <div class="modal fade" id="modalMonitoramento" tabindex="-1" aria-labelledby="modalMonitoramentoLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg"><!-- modal-lg para desktop, adaptável ao mobile -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalMonitoramentoLabel">
+                    <i class="bi bi-lightbulb"></i> Monitoramento Ambiental
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Ambiental;</li>
+                    <li>Analises da qualidade do ar;</li>
+                    <li>Analises da qualidade do solo;</li>
+                    <li>Analises da qualidade da água;</li>
+                    <li>Analises da qualidade do ruído ocupacional;</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-lightbulb icon"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <!-- Botão para abrir o modal -->
+              <a href="javascript:void(0)" class="stretched-link" data-bs-toggle="modal"
+                data-bs-target="#modalConsultoria">
                 <h3>Consultoria e Planejamento Ambiental</h3>
               </a>
-              <p>Temos experiência na condução de processos ambientais e no atendimento às conformidades legais para
+              <p>
+                Temos experiência na condução de processos ambientais e no atendimento às conformidades legais para
                 auxiliar nos diversos temas da área ambiental. Auxiliamos no planejamento ambiental para orientar a
-                concepção de projetos e empreendimentos, antecipando riscos e conflitos.</p>
+                concepção de projetos e empreendimentos, antecipando riscos e conflitos.
+              </p>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+          <!-- End Service Item -->
+          <!-- Modal Consultoria -->
+          <div class="modal fade" id="modalConsultoria" tabindex="-1" aria-labelledby="modalConsultoriaLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg"><!-- modal-lg para desktop, adaptável ao mobile -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalConsultoriaLabel">
+                    <i class="bi bi-lightbulb"></i> Consultoria e Planejamento Ambiental
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Licenciamento Ambiental;</li>
+                    <li>Estudo de Impacto Ambiental;</li>
+                    <li>Auditoria Ambiental;</li>
+                    <li>Plano de Gestão de Resíduos Ambientais;</li>
+                    <li>Recuperação de solos contaminados;</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-search icon"></i>
@@ -432,7 +491,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-recycle icon"></i>
@@ -447,7 +506,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-chat-square-text"></i>
@@ -462,22 +521,49 @@
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-chat-square-text"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <!-- Botão para abrir o modal -->
+              <a href="javascript:void(0)" class="stretched-link" data-bs-toggle="modal"
+                data-bs-target="#modalSaneamento">
                 <h3>Saneamento Básico</h3>
               </a>
               <p>Desenvolvemos projetos e soluções em Saneamento Básico voltados para fabricação de ecopontos, coleta e
-                tratamento de
-                esgoto,recolha de residuos industriais e urbanos, garantindo
+                tratamento de esgoto,recolha de residuos industriais e urbanos, garantindo
                 conformidade com normas e legislações vigentes.
               </p>
-              <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
+
+          <!-- Modal Saneamento -->
+          <div class="modal fade" id="modalSaneamento" tabindex="-1" aria-labelledby="modalSaneamentoLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg"><!-- modal-lg para desktop, adaptável ao mobile -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalSaneamentoLabel">
+                    <i class="bi bi-lightbulb"></i> Saneamento Básico
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Fabricação de Ecopontos;</li>
+                    <li>Recolha de Residuos Industriais;</li>
+                    <li>Recolha de Residuos Urbanos;</li>
+                    <li>Coleta e Tratamento de Esgoto;</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
 
@@ -490,7 +576,7 @@
 
       <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="fade-up">
 
       </div>
 
@@ -509,14 +595,14 @@
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up">
             <li data-filter="*" class="filter-active">Todas</li>
             <!-- <li data-filter=".filter-app">App</li>
             <li data-filter=".filter-product">Card</li>
             <li data-filter=".filter-branding">Web</li> -->
           </ul><!-- End Portfolio Filters -->
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="0">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
@@ -654,14 +740,14 @@
         <p><span>Entre em</span> <span class="description-title">Contacto</span></p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
 
           <div class="col-lg-5">
 
             <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="info-item d-flex" data-aos="fade-up">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Endereço</h3>
@@ -669,7 +755,7 @@
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="info-item d-flex" data-aos="fade-up">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Telefone</h3>
@@ -677,7 +763,7 @@
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <div class="info-item d-flex" data-aos="fade-up">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>E-mail</h3>
@@ -686,15 +772,14 @@
               </div><!-- End Info Item -->
 
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.657754939559!2d13.403976675018969!3d-9.038646291023046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f50c19e11679%3A0x1785af2259a452b7!2sAquambiente-Com%C3%A9rcio%20e%20Servi%C3%A7os%2C%20Lda!5e1!3m2!1spt-PT!2sao!4v1755163903001!5m2!1spt-PT!2sao"
+                frameborder="0" width="600" height="450" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
           <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up">
               <div class="row gy-4">
 
                 <div class="col-md-6">
